@@ -1,0 +1,14 @@
+.scroll{
+    border: 1px solid lightblue;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 2rem 2rem;
+    overflow: auto;
+    font-size: 1px;
+    gap: 40px;
+    background-color: lightcyan;
+}
+.scroll::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
